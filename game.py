@@ -1,5 +1,6 @@
 import pygame as pg
 
+
 pg.init()
 
 screen_width = 800
@@ -45,7 +46,7 @@ while running:
             display.blit(text_img,(x,y))
 
 
-
+pg.quit()
 
 
 
